@@ -31,9 +31,28 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li><a asp-controller="Home" asp-action="About">About</a></li>
-                        <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
+                        <li><a asp-controller="Home" asp-action="Index">Начало</a></li>
+                         <li><a asp-controller="Home" asp-action="Index">Информация</a></li>
+                        <li><a asp-controller="Home" asp-action="Index">Събития</a></li>
+                        <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Предстоящи</a></li>
+                            <li><a href="#">Минали</a></li>
+                        </ul>
+                        </li>
+                        <li><a asp-controller="Home" asp-action="About">Проекти</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="#">Реставрирани</a></li>
+                            <li><a href="#">Бъдещи</a></li>
+                        </ul>
+                        </li>
+                        <li><a asp-controller="Home" asp-action="Index">Търси се</a></li>
+                        <li><a asp-controller="Home" asp-action="Contact">За продаване</a></li>
+                        <li><a asp-controller="Home" asp-action="Contact">Галерия</a></li>
+                        <li><a asp-controller="Home" asp-action="Contact">За контакти</a></li>
                     </ul>
                     @await Html.PartialAsync("_LoginPartial")
                 </div>
