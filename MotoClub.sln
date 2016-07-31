@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F66750D9-D985-4AF4-8545-DDAC4842D115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB421307-0BA4-46D8-90ED-3EA9882DDF92}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MotoClub", "src\MotoClub\MotoClub.xproj", "{7A7A3D04-42B6-410F-818C-B69926C73A68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A7A3D04-42B6-410F-818C-B69926C73A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7A3D04-42B6-410F-818C-B69926C73A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7A3D04-42B6-410F-818C-B69926C73A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7A3D04-42B6-410F-818C-B69926C73A68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A7A3D04-42B6-410F-818C-B69926C73A68} = {F66750D9-D985-4AF4-8545-DDAC4842D115}
+	EndGlobalSection
+EndGlobal
